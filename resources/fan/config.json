@@ -1,0 +1,69 @@
+{
+	"type": "Collection",
+	"properties": {
+		"type": {
+			"name": "type",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "type",
+			"order": 0
+		},
+		"description": {
+			"name": "description",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "description",
+			"order": 1
+		},
+		"size": {
+			"name": "size",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "size",
+			"order": 2
+		},
+		"LED": {
+			"name": "LED",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "LED",
+			"order": 3
+		},
+		"dB": {
+			"name": "dB",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "dB",
+			"order": 4
+		},
+		"RPM": {
+			"name": "RPM",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "RPM",
+			"order": 5
+		},
+		"CFM": {
+			"name": "CFM",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "CFM",
+			"order": 6
+		},
+		"links": {
+			"name": "links",
+			"type": "array",
+			"typeLabel": "array",
+			"required": false,
+			"id": "links",
+			"order": 7
+		}
+	}
+}

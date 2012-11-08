@@ -1,0 +1,133 @@
+{
+	"type": "Collection",
+	"properties": {
+		"type": {
+			"name": "type",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "type",
+			"order": 0
+		},
+		"description": {
+			"name": "description",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "description",
+			"order": 1
+		},
+		"brand": {
+			"name": "brand",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "brand",
+			"order": 2
+		},
+		"CPUType": {
+			"name": "CPUType",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "CPUType",
+			"order": 3
+		},
+		"chipset": {
+			"name": "chipset",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "chipset",
+			"order": 4
+		},
+		"socket": {
+			"name": "socket",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "socket",
+			"order": 5
+		},
+		"socketNum": {
+			"name": "socketNum",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "socketNum",
+			"order": 6
+		},
+		"RAMType": {
+			"name": "RAMType",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "RAMType",
+			"order": 7
+		},
+		"ramSlots": {
+			"name": "ramSlots",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "ramSlots",
+			"order": 8
+		},
+		"ramMax": {
+			"name": "ramMax",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "ramMax",
+			"order": 9
+		},
+		"PCIExpress16": {
+			"name": "PCIExpress16",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "PCIExpress16",
+			"order": 10
+		},
+		"size": {
+			"name": "size",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "size",
+			"order": 11
+		},
+		"SATA": {
+			"name": "SATA",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "SATA",
+			"order": 12
+		},
+		"USB": {
+			"name": "USB",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "USB",
+			"order": 13
+		},
+		"OBV": {
+			"name": "OBV",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "OBV",
+			"order": 14
+		},
+		"links": {
+			"name": "links",
+			"type": "array",
+			"typeLabel": "array",
+			"required": false,
+			"id": "links",
+			"order": 15
+		}
+	}
+}

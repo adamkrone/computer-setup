@@ -1,0 +1,61 @@
+{
+	"type": "Collection",
+	"properties": {
+		"type": {
+			"name": "type",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "type",
+			"order": 0
+		},
+		"description": {
+			"name": "description",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "description",
+			"order": 1
+		},
+		"wireless": {
+			"name": "wireless",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "wireless",
+			"order": 2
+		},
+		"bluetooth": {
+			"name": "bluetooth",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "bluetooth",
+			"order": 3
+		},
+		"combo": {
+			"name": "combo",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "combo",
+			"order": 4
+		},
+		"media": {
+			"name": "media",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "media",
+			"order": 5
+		},
+		"links": {
+			"name": "links",
+			"type": "array",
+			"typeLabel": "array",
+			"required": false,
+			"id": "links",
+			"order": 6
+		}
+	}
+}

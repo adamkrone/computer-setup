@@ -1,0 +1,53 @@
+{
+	"type": "Collection",
+	"properties": {
+		"type": {
+			"name": "type",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "type",
+			"order": 0
+		},
+		"description": {
+			"name": "description",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "description",
+			"order": 1
+		},
+		"OSBits": {
+			"name": "OSBits",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "OSBits",
+			"order": 2
+		},
+		"OSMaxRAM": {
+			"name": "OSMaxRAM",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "OSMaxRAM",
+			"order": 3
+		},
+		"mediaBits": {
+			"name": "mediaBits",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "mediaBits",
+			"order": 4
+		},
+		"links": {
+			"name": "links",
+			"type": "array",
+			"typeLabel": "array",
+			"required": false,
+			"id": "links",
+			"order": 5
+		}
+	}
+}

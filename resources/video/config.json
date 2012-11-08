@@ -1,0 +1,133 @@
+{
+	"type": "Collection",
+	"properties": {
+		"type": {
+			"name": "type",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "type",
+			"order": 0
+		},
+		"description": {
+			"name": "description",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "description",
+			"order": 1
+		},
+		"brand": {
+			"name": "brand",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "brand",
+			"order": 2
+		},
+		"videoType": {
+			"name": "videoType",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "videoType",
+			"order": 3
+		},
+		"model": {
+			"name": "model",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "model",
+			"order": 4
+		},
+		"overclocked": {
+			"name": "overclocked",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "overclocked",
+			"order": 5
+		},
+		"RAMSize": {
+			"name": "RAMSize",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "RAMSize",
+			"order": 6
+		},
+		"RAMType": {
+			"name": "RAMType",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "RAMType",
+			"order": 7
+		},
+		"RAMBits": {
+			"name": "RAMBits",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "RAMBits",
+			"order": 8
+		},
+		"slots": {
+			"name": "slots",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "slots",
+			"order": 9
+		},
+		"PCIExpress16": {
+			"name": "PCIExpress16",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "PCIExpress16",
+			"order": 10
+		},
+		"SLI": {
+			"name": "SLI",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "SLI",
+			"order": 11
+		},
+		"crossfire": {
+			"name": "crossfire",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "crossfire",
+			"order": 12
+		},
+		"long": {
+			"name": "long",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "long",
+			"order": 13
+		},
+		"workload": {
+			"name": "workload",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "workload",
+			"order": 14
+		},
+		"links": {
+			"name": "links",
+			"type": "array",
+			"typeLabel": "array",
+			"required": false,
+			"id": "links",
+			"order": 15
+		}
+	}
+}

@@ -1,0 +1,101 @@
+{
+	"type": "Collection",
+	"properties": {
+		"type": {
+			"name": "type",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "type",
+			"order": 0
+		},
+		"description": {
+			"name": "description",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "description",
+			"order": 1
+		},
+		"brand": {
+			"name": "brand",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "brand",
+			"order": 2
+		},
+		"timing": {
+			"name": "timing",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "timing",
+			"order": 3
+		},
+		"pins": {
+			"name": "pins",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "pins",
+			"order": 4
+		},
+		"totalSize": {
+			"name": "totalSize",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "totalSize",
+			"order": 5
+		},
+		"stickSize": {
+			"name": "stickSize",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "stickSize",
+			"order": 6
+		},
+		"numSticks": {
+			"name": "numSticks",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "numSticks",
+			"order": 7
+		},
+		"DDRType": {
+			"name": "DDRType",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "DDRType",
+			"order": 8
+		},
+		"speed": {
+			"name": "speed",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "speed",
+			"order": 9
+		},
+		"spec": {
+			"name": "spec",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "spec",
+			"order": 10
+		},
+		"links": {
+			"name": "links",
+			"type": "array",
+			"typeLabel": "array",
+			"required": false,
+			"id": "links",
+			"order": 11
+		}
+	}
+}
